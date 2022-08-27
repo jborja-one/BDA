@@ -25,6 +25,15 @@ function ServicesMenuSection() {
 						Quartz Countertops
 					</NavLink>
 					<NavLink
+						to="/services/quartzite-countertops"
+						className={({ isActive }) =>
+							(isActive = isActive
+								? 'serviceIsActive md-text bold-text mx-5'
+								: 'services-link md-text bold-text mx-5')
+						}>
+						Quartzite Countertops
+					</NavLink>
+					<NavLink
 						to="/services/marble-countertops"
 						className={({ isActive }) =>
 							(isActive = isActive

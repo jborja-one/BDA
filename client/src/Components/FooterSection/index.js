@@ -83,6 +83,11 @@ function FooterSection() {
 							Services
 						</a>
 						<a
+							href="/projects"
+							className="footer-link sm-text reg-text text-white mt-3">
+							Projects
+						</a>
+						<a
 							href="/contact"
 							className="footer-link sm-text reg-text text-white mt-3">
 							Contact Us
@@ -103,6 +108,11 @@ function FooterSection() {
 							href="/services/quartz-countertops"
 							className="footer-link sm-text reg-text text-white mt-3">
 							Quartz Countertops
+						</a>
+						<a
+							href="/services/quartzite-countertops"
+							className="footer-link sm-text reg-text text-white mt-3">
+							Quartzite Countertops
 						</a>
 						<a
 							href="/services/marble-countertops"

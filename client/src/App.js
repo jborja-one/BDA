@@ -8,6 +8,8 @@ import QuartzPage from './Components/QuartzPage/index.js';
 import MarblePage from './Components/MarblePage/index.js';
 import OutdoorPage from './Components/OutdoorPage/index.js';
 import ReviewPage from './Components/ReviewPage/index.js';
+import QuartzitePage from './Components/QuartzitePage/index.js';
+import ProjectsPage from './Components/ProjectsPage/index.js';
 
 function App() {
 	return (
@@ -28,9 +30,14 @@ function App() {
 					element={<MarblePage />}
 				/>
 				<Route
+					path="/services/quartzite-countertops"
+					element={<QuartzitePage />}
+				/>
+				<Route
 					path="/services/outdoor-countertops"
 					element={<OutdoorPage />}
 				/>
+				<Route path="/projects" element={<ProjectsPage />} />
 				<Route path="/contact" element={<ContactPage />} />
 				<Route path="/reviews" element={<ReviewPage />} />
 			</Routes>

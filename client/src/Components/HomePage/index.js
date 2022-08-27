@@ -46,13 +46,22 @@ function HomePage() {
 							About
 						</NavLink>
 						<NavLink
-							to="/services/"
+							to="/services/granite-countertops"
 							className={({ isActive }) =>
 								(isActive = isActive
 									? 'isActive reg-text mx-5'
 									: 'nav-link reg-text mx-5')
 							}>
 							Services
+						</NavLink>
+						<NavLink
+							to="/projects"
+							className={({ isActive }) =>
+								(isActive = isActive
+									? 'isActive reg-text mx-5'
+									: 'nav-link reg-text mx-5')
+							}>
+							Projects
 						</NavLink>
 						<NavLink
 							to="/contact"

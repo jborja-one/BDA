@@ -521,6 +521,7 @@ table {
 		opacity: 0.7;
 		padding-inline: 50px;
 		width: 345px;
+		font-size: 24px;
 	}
 
 .serviceIsActive{
@@ -538,6 +539,7 @@ table {
 	font-size: 25px;
 	margin: 20px;
 	text-align: center;
+	font-size: 24px;
 }
 
 	.serviceIsActive:hover{
@@ -588,6 +590,17 @@ table {
 		border-radius: 20px;
 		position: absolute;
 		left: 195px;
+		top: 25px;
+		z-index: -1;
+	}
+
+	.service-behind-text_bar-quartzite{
+		background-color: #e0cc81;
+		width: 302px;
+		height: 30px;
+		border-radius: 20px;
+		position: absolute;
+		left: 245px;
 		top: 25px;
 		z-index: -1;
 	}

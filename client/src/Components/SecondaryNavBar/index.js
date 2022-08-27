@@ -44,6 +44,15 @@ function SecondaryNavBar() {
 						Services
 					</NavLink>
 					<NavLink
+						to="/projects"
+						className={({ isActive }) =>
+							(isActive = isActive
+								? 'isActive reg-text mx-5'
+								: 'nav-link reg-text mx-5')
+						}>
+						Projects
+					</NavLink>
+					<NavLink
 						to="/contact"
 						className={({ isActive }) =>
 							(isActive = isActive
