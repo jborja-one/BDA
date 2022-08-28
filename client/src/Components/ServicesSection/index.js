@@ -34,21 +34,28 @@ function ServicesSection() {
 			</div>
 			<div className="d-flex justify-content-center mb-5">
 				<a
-					className="each-service service-item-1 col-md-4 me-5 px-0"
+					className="each-service service-item-1 col-md-4 me-2 px-0"
 					href="/services/granite-countertops">
 					<h3 className="services-title lg-text reg-text ms-4">
 						Granite Countertops
 					</h3>
 				</a>
 				<a
-					className="each-service service-item-2 col-md-4 me-5 px-0"
+					className="each-service service-item-2 col-md-4 me-2 px-0"
 					href="/services/quartz-countertops">
 					<h3 className="services-title lg-text reg-text ms-4">
 						Quartz Countertops
 					</h3>
 				</a>
 				<a
-					className="each-service service-item-3 col-md-4 me-5 px-0"
+					className="each-service service-item-5 col-md-4 me-2 px-0"
+					href="/services/quartzite-countertops">
+					<h3 className="services-title lg-text reg-text ms-4">
+						Quartzite Countertops
+					</h3>
+				</a>
+				<a
+					className="each-service service-item-3 col-md-4 me-2 px-0"
 					href="/services/marble-countertops">
 					<h3 className="services-title lg-text reg-text ms-4">
 						Marble Countertops

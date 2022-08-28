@@ -38,8 +38,9 @@ function WhyChooseUsSection() {
 							find countertops you'll love. Most often, we install
 							new countertops for clients during their bathroom or
 							kitchen remodeling projects. But we're happy to
-							serve clients in and around West Jordan, UT for any
-							kind of home improvement project. <br /> <br />
+							serve clients in and around Salt Lake City, UT, and
+							all surrounding counties for any kind of home
+							improvement project. <br /> <br />
 							Our trusted team of countertop contractors is small,
 							but effective. You can count on us for friendly,
 							personalized service that will make the countertop

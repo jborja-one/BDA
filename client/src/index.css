@@ -339,6 +339,17 @@ table {
 	transition: all 0.9s ease-out;
 }
 
+.service-item-5{
+	width: 20%;
+	height: 600px;
+	background-image: url('../src/images/projects/quartzite-cristallo/quartzite-cristallo-2.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	transition: all 0.9s ease-out;
+}
+
 .each-service{
 	padding-top: 28%;
 }
@@ -623,6 +634,17 @@ table {
 		border-radius: 20px;
 		position: absolute;
 		left: 200px;
+		top: 25px;
+		z-index: -1;
+	}
+
+	.service-behind-text_bar-sinks{
+		background-color: #e0cc81;
+		width: 147px;
+		height: 30px;
+		border-radius: 20px;
+		position: absolute;
+		left: 125px;
 		top: 25px;
 		z-index: -1;
 	}

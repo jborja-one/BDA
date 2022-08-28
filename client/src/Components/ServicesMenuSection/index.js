@@ -51,6 +51,15 @@ function ServicesMenuSection() {
 						}>
 						Outdoor Countertops
 					</NavLink>
+					<NavLink
+						to="/services/sinks"
+						className={({ isActive }) =>
+							(isActive = isActive
+								? 'serviceIsActive md-text bold-text mx-5'
+								: 'services-link md-text bold-text mx-5')
+						}>
+						Our Sinks
+					</NavLink>
 				</div>
 			</div>
 		</div>

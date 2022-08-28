@@ -4,7 +4,7 @@ import FooterSection from '../FooterSection';
 import ServicesMenuSection from '../ServicesMenuSection';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import QuartziteImg from '../../images/quartzite-countertop.jpeg';
+import QuartziteImg from '../../images/projects/quartzite-cristallo/quartzite-cristallo-2.JPG';
 
 function QuartzitePage() {
 	useEffect(() => {

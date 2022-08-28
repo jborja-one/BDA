@@ -10,6 +10,7 @@ import OutdoorPage from './Components/OutdoorPage/index.js';
 import ReviewPage from './Components/ReviewPage/index.js';
 import QuartzitePage from './Components/QuartzitePage/index.js';
 import ProjectsPage from './Components/ProjectsPage/index.js';
+import SinksPage from './Components/SinksPage/index.js';
 
 function App() {
 	return (
@@ -37,6 +38,7 @@ function App() {
 					path="/services/outdoor-countertops"
 					element={<OutdoorPage />}
 				/>
+				<Route path="/services/sinks" element={<SinksPage />} />
 				<Route path="/projects" element={<ProjectsPage />} />
 				<Route path="/contact" element={<ContactPage />} />
 				<Route path="/reviews" element={<ReviewPage />} />

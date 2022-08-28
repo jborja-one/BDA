@@ -11,6 +11,14 @@ import CristalloImg2 from '../../images/projects/quartzite-cristallo/quartzite-c
 import CalacattaImg1 from '../../images/projects/quartz-calacatta/quartz-calacatta-1.jpeg';
 import MontblancImg1 from '../../images/projects/quartz-montblanc/quartz-montblanc-1.JPEG';
 import MontblancImg2 from '../../images/projects/quartz-montblanc/quartz-montblanc-2.JPEG';
+import Sink1 from '../../images/projects/sinks/sink-1.JPG';
+import Sink2 from '../../images/projects/sinks/sink-2.JPG';
+import Sink3 from '../../images/projects/sinks/sink-3.JPG';
+import Sink4 from '../../images/projects/sinks/sink-4.JPG';
+import Sink5 from '../../images/projects/sinks/sink-5.JPG';
+import Sink6 from '../../images/projects/sinks/sink-6.JPG';
+import Sink7 from '../../images/projects/sinks/sink-7.JPG';
+import Sink8 from '../../images/projects/sinks/sink-8.JPG';
 
 function ProjectsPage() {
 	useEffect(() => {
@@ -24,7 +32,7 @@ function ProjectsPage() {
 				data-aos="fade-up"
 				data-aos-duration="3000"
 				data-aos-easing="ease-in-back">
-				<div className="my-100">
+				<div className="my-100 position-relative">
 					<h2
 						className="lg-text reg-text position-relative ms-5"
 						data-aos="fade-up"
@@ -75,7 +83,7 @@ function ProjectsPage() {
 					</div>
 					<div className="container">
 						<h2 className="md-text bold-text mt-100 mb-4">
-							Quartz Cristallo
+							Quartzite Cristallo
 						</h2>
 						<p>Citrine 2cm Polished</p>
 						<div className="row my-5">
@@ -130,6 +138,73 @@ function ProjectsPage() {
 								<img
 									className="img-fluid"
 									src={MontblancImg2}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+							<div className="col-md-4"></div>
+						</div>
+					</div>
+					<div className="container">
+						<h2 className="md-text bold-text mt-100 mb-4">Sinks</h2>
+						{/* <p>3 cm, 3" Miter</p> */}
+						<div className="row my-5">
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink1}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink2}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink3}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+						</div>
+						<div className="row my-5">
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink4}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink5}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink6}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+						</div>
+						<div className="row my-5">
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink7}
+									alt="quartz mont blanc-img"
+								/>
+							</div>
+							<div className="col-md-4">
+								<img
+									className="img-fluid"
+									src={Sink8}
 									alt="quartz mont blanc-img"
 								/>
 							</div>

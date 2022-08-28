@@ -6,7 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MarbleImg from '../../images/marble-countertop.jpeg';
 
-function MarblePage() {
+function SinksPage() {
 	useEffect(() => {
 		AOS.init({ duration: 2000 });
 	}, []);
@@ -25,16 +25,16 @@ function MarblePage() {
 								data-aos="fade-up"
 								data-aos-duration="3000"
 								data-aos-easing="ease-in-back">
-								Marble
-								<span className="bold-text"> Countertops</span>
+								Our
+								<span className="bold-text"> Sinks</span>
 							</h2>
 							<p
-								className="service-behind-text_bar-marble"
+								className="service-behind-text_bar-sinks"
 								data-aos="fade-left"
 								data-aos-duration="2000"
 								data-aos-easing="ease-in-back"></p>
 							<p className="service-behind-text position-absolute">
-								MARBLE
+								SINKS
 							</p>
 						</div>
 						<div className="my-60">
@@ -144,4 +144,4 @@ function MarblePage() {
 	);
 }
 
-export default MarblePage;
+export default SinksPage;
