@@ -46,7 +46,7 @@ function HomePage() {
 							About
 						</NavLink>
 						<NavLink
-							to="/services/granite-countertops"
+							to="/services"
 							className={({ isActive }) =>
 								(isActive = isActive
 									? 'isActive reg-text mx-5'

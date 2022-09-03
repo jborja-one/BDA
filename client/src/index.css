@@ -125,6 +125,10 @@ table {
 	margin-top: 200px;
 }
 
+.mb-200{
+	margin-bottom: 200px;
+}
+
 .my-100{
 	margin-top: 100px;
 }
@@ -649,8 +653,6 @@ table {
 		z-index: -1;
 	}
 
-/*! ******* SERVICES PAGE ********/
-
 .reviews-behind-text_bar {
     background-color: #e0cc81;
     width: 288px;
@@ -694,6 +696,69 @@ table {
 		background-color: black;
 		border-radius: 10px;
 	}
+
+/* Services */
+
+.animation-img-1{
+	width: 30%;
+	height:280px;
+	background-image: url('../src/images/granite-countertop.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	transition: all 0.9s ease-out ;
+}
+
+.animation-img-2{
+	width: 30%;
+	height:280px;
+	background-image: url('../src/images/quartz-countertop.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	transition: all 0.9s ease-out;
+}
+
+.animation-img-3{
+	width: 30%;
+	height:280px;
+	background-image: url('../src/images/marble-countertop.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	transition: all 0.9s ease-out;
+}
+
+.animation-img-4{
+	width: 30%;
+	height:280px;
+	background-image: url('../src/images/outdoor-countertops.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	transition: all 0.9s ease-out;
+}
+
+.animation-img-5{
+	width: 30%;
+	height:280px;
+	background-image: url('../src/images/projects/quartzite-cristallo/quartzite-cristallo-2.JPG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	transition: all 0.9s ease-out;
+}
+
+.service-animation{
+	text-decoration: none;
+}
+
+
 
 /*! ******* REVIEWS PAGE ********/
 

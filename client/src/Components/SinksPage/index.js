@@ -41,21 +41,33 @@ function SinksPage() {
 							<div className="row">
 								<div className="col-md-6">
 									<p className="sm-text light-text">
-										Searching for marble countertops to
-										enhance your wet bar, kitchen, or
-										bathroom? Start by consulting the local
-										countertop contractors at BDA Marble and
-										Granite. We provide marble countertop
-										installation services in Salt Lake City,
-										UT, and all surrounding counties. We'll
-										have your custom counters installed in
-										no time at all.
+										When it comes to being the most
+										important part of a kitchen, the kitchen
+										sink can be overlooked. The range,
+										refrigerator provide essential functions
+										and take up a lot of space, and
+										cabinets, countertops and kitchen
+										islands are most essential with the
+										storage and preparation roles of a
+										kitchen. However, when you realize how
+										important water is to the cooking
+										process, how much of a beating a sink
+										must sustain and what you immediately
+										see when you walk into a kitchen, the
+										kitchen sink ends up being the equipment
+										that ties a kitchen together. Whether
+										you’re looking into building your own
+										home, remodeling or fixing a broken
+										sink, knowing what the best kitchen sink
+										material is and the types of kitchen
+										sinks materials that make for a quality
+										sink is essential to getting the sink
+										that will make your kitchen spectacular.
 										<br />
 										<br />
-										When it comes to marble countertops, you
-										can choose from all kinds of colors and
-										designs? Call us to see what's available
-										now.
+										When it comes to sinks, you can choose
+										from all kinds of colors and designs?
+										Call us to see what's available now.
 									</p>
 									<h2 className="md-text bold-text mt-100">
 										3 Advantages of Marble Countertops
@@ -71,8 +83,8 @@ function SinksPage() {
 							</div>
 
 							<p className="sm-text light-text mt-3">
-								There are many benefits to choosing marble for
-								your kitchen or bathroom counters. Marble
+								There are many benefits to choosing our Sinks
+								your kitchen or bathroom counters. Our Sinks
 								countertops are:
 							</p>
 							<ul className="sm-text light-text mt-3">
@@ -86,7 +98,9 @@ function SinksPage() {
 										viewBox="0 0 16 16">
 										<path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
 									</svg>
-									<li>Beautiful, sleek look</li>
+									<li>
+										Quality Sink that can last indefinitely
+									</li>
 								</div>
 								<div className="d-flex align-items-center my-2">
 									<svg
@@ -99,8 +113,7 @@ function SinksPage() {
 										<path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
 									</svg>
 									<li>
-										Softer than granite, which makes them
-										more customizable
+										Beautiful and sleek design and finish
 									</li>
 								</div>
 								<div className="d-flex align-items-center my-2">
@@ -121,13 +134,12 @@ function SinksPage() {
 							</ul>
 							<div>
 								<p className="sm-text light-text mb-5">
-									Stuck between two colors of marble? Maybe
-									you would prefer a thinner or thicker marble
+									Stuck between two colors? Maybe you would
+									prefer a thinner or thicker surface
 									countertop. Either way, let us help you
 									decide on a design that will complement your
-									space at the best possible price. Book
-									marble countertop installation services
-									today.
+									space at the best possible price. Book our
+									countertop installation services today.
 								</p>
 								<a
 									className="md-button md-text"

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import AboutSectionImg from '../../images/about-section.jpeg';
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import '../../index.css';
@@ -54,7 +54,7 @@ function AboutSection() {
 						src={AboutSectionImg}
 						alt="about-section"
 					/>
-					<div
+					{/* <div
 						className="counter-section d-flex justify-content-between align-items-center"
 						data-aos="fade-left"
 						data-aos-offset="300"
@@ -99,7 +99,7 @@ function AboutSection() {
 							</CountUp>
 							<p className="md-text reg-text">Happy Clients</p>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>

@@ -11,6 +11,7 @@ import ReviewPage from './Components/ReviewPage/index.js';
 import QuartzitePage from './Components/QuartzitePage/index.js';
 import ProjectsPage from './Components/ProjectsPage/index.js';
 import SinksPage from './Components/SinksPage/index.js';
+import ServicesPage from './Components/ServicesPage/index.js';
 
 function App() {
 	return (
@@ -40,6 +41,7 @@ function App() {
 				/>
 				<Route path="/services/sinks" element={<SinksPage />} />
 				<Route path="/projects" element={<ProjectsPage />} />
+				<Route path="/services" element={<ServicesPage />} />
 				<Route path="/contact" element={<ContactPage />} />
 				<Route path="/reviews" element={<ReviewPage />} />
 			</Routes>

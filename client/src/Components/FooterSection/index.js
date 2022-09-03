@@ -78,7 +78,7 @@ function FooterSection() {
 							About
 						</a>
 						<a
-							href="/services/granite-countertops"
+							href="/services"
 							className="footer-link sm-text reg-text text-white mt-3">
 							Services
 						</a>
