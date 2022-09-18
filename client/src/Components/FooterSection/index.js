@@ -12,7 +12,7 @@ function FooterSection() {
 						alt="logo-light"
 					/>
 				</div>
-				<div className="col-md-4 mt-4">
+				<div className="footer-info col-md-4 mt-4">
 					<h2 className="md-text reg-text text-white mb-4">
 						Our Information
 					</h2>
@@ -62,7 +62,7 @@ function FooterSection() {
 						</p>
 					</div>
 				</div>
-				<div className="col-md-2 mt-4 ">
+				<div className="footer-info col-md-2 mt-4 ">
 					<h2 className="md-text reg-text text-white mb-4">
 						Site Map
 					</h2>
@@ -94,7 +94,7 @@ function FooterSection() {
 						</a>
 					</div>
 				</div>
-				<div className="col-md-2 mt-4">
+				<div className="footer-info col-md-2 mt-4">
 					<h2 className="md-text reg-text text-white mb-4">
 						Services
 					</h2>

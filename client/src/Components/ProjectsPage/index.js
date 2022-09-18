@@ -42,7 +42,7 @@ function ProjectsPage() {
 						<span className="bold-text"> Projects</span>
 					</h2>
 					<p
-						className="services-behind-text_bar"
+						className="projects-behind-text_bar"
 						data-aos="fade-left"
 						data-aos-duration="2000"
 						data-aos-easing="ease-in-back"></p>
