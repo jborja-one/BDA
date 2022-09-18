@@ -13,7 +13,7 @@ function ReviewsSection() {
 	}, [dispatch]);
 
 	return (
-		<div className="container-fluid ms-5 mt-100">
+		<div className="reviews-section container-fluid ms-5 mt-100">
 			<div className="position-relative">
 				<h2
 					className="lg-text reg-text position-relative"

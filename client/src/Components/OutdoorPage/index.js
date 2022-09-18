@@ -14,7 +14,7 @@ function OutdoorPage() {
 		<div>
 			<SecondaryNavBar />
 			<div className="">
-				<div className="row my-100">
+				<div className="services row my-100">
 					<div className="col-md-4">
 						<ServicesMenuSection />
 					</div>
@@ -52,7 +52,7 @@ function OutdoorPage() {
 										quick granite countertop installation
 										services.
 									</p>
-									<h2 className="md-text bold-text mt-100">
+									<h2 className="sub-title md-text bold-text mt-100">
 										Discover the Benefits of Granite
 										Countertops
 									</h2>

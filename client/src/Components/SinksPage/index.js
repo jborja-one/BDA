@@ -14,7 +14,7 @@ function SinksPage() {
 		<div>
 			<SecondaryNavBar />
 			<div className="">
-				<div className="row my-100">
+				<div className="services row my-100">
 					<div className="col-md-4">
 						<ServicesMenuSection />
 					</div>
@@ -69,7 +69,7 @@ function SinksPage() {
 										from all kinds of colors and designs?
 										Call us to see what's available now.
 									</p>
-									<h2 className="md-text bold-text mt-100">
+									<h2 className="sub-title md-text bold-text mt-100">
 										3 Advantages of Marble Countertops
 									</h2>
 								</div>

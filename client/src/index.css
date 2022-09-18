@@ -89,6 +89,25 @@ table {
 	font-family: Roboto, sans-serif;
 }
 
+/* TEXT MEDIA QUERIES */
+
+@media screen and (max-width: 375px) {
+	.sm-text{
+		font-size: 10px;
+		line-height: 20px;
+		font-weight: 600px;
+	}
+	.md-text{
+		font-size: 20px;
+	}
+	.lg-text{
+		font-size: 40px;
+	}
+	.xl-text{
+		font-size: 60px;
+	}
+}
+
 /* MARGINS AND PADDINGS */
 
 .mt-60{
@@ -154,6 +173,15 @@ table {
 		opacity: 1;
 		color: white
 	}
+
+/* BUTTON MEDIA QUERIES */
+
+@media screen and (max-width: 375px) {
+	.md-button{
+		padding-inline: 10px;
+		padding: 5px;
+	}
+}
 
 /* SECONDARY NAVBAR */
 
@@ -781,8 +809,358 @@ table {
 	}
 
 
-/*? ******* MEDIA QUERIES ********/
+/* ******* MEDIA QUERIES ********/
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 375px){
+	/* Home Header */
+	.nav-link{
+		font-size: 13px;
+		margin: 10px !important;
+	}
 
-@media screen and (min-width: 481px) and (max-width: 768) {}
+	.isActive{
+		font-size: 13px;
+		margin: 10px !important;
+	}
+
+	.home-header-content{
+		top: 23%;
+		left: -3%;
+	}
+
+		.home-header-content h1, .home-header-content h3{
+			font-size: 15px;
+		}
+
+		.home-header-content h2{
+			font-size: 30px;
+			margin: 20px 0px !important;
+		}
+
+	.fa-chevron-down{
+		font-size: 40px;
+	}
+
+		.header-arrow{
+			top: 82%
+		}
+
+		.header-btn_container{
+			margin-top: 20px;
+		}
+
+	/* About Section */
+	.about-section{
+		margin-top: 15px;
+	}
+
+		.about-section_left h2{
+			font-size: 25px;
+		}
+
+		.behind-text{
+			font-size: 62px;
+		}
+
+		.behind-text_bar{
+			width: 134px;
+			height: 15px;
+			left: 119px;
+			top: 12px;
+		}
+
+	.about-section_content{
+		margin-bottom: 50px !important;
+	}
+
+	.about-section_content p{
+		margin-top: 25px !important;
+		margin-bottom: 25px !important;
+	}
+
+	/* Services Section */
+	.services-behind-text{
+		font-size: 62px;
+	}
+
+		.services-behind-text_bar{
+			width: 113px;
+			height: 15px;
+			left: 87px;
+			top: 12px;
+		}
+	.service-section_container{
+		flex-direction: column !important;
+    	align-items: center;
+	}
+
+		.each-service{
+			width: 80%;
+			height: 300px;
+			margin-bottom: 10px;
+			margin-right: 0 !important;
+		}
+
+	/* Why Choose Us */
+	.choose-us-section{
+		margin-top: 10px;
+	}
+
+		.choose-us-section_left h2{
+			font-size: 25px;
+		}
+
+		.choose-us-behind-text{
+			font-size: 62px;
+			top: -5%;
+			right: 107px;
+		}
+
+		.choose-us-behind-text_bar{
+			width: 133px;
+			height: 15px;
+			left: 61px;
+			top: 12px;
+		}
+
+		.choose-us_images{
+			width: 44%;
+		}
+
+	/* Reviews Section */
+	.reviews-section{
+		margin-top: 40px;
+		margin-left: 20px !important;
+	}
+
+		.reviews-section div h2{
+			font-size: 31px;
+		}
+
+		.reviews-behind-text{
+			font-size: 62px;
+			top: -5%;
+			left: -23px;
+		}
+
+		.reviews-behind-text_bar{
+			width: 186px;
+			height: 15px;
+			left: -10px;
+			top: 49px;
+		}
+
+		.carousel-item div h1{
+			font-size: 25px;
+		}
+
+		.review-bar{
+			width: 30px;
+			height: 5px;
+			left: 0;
+			top: 12px;
+		}
+
+	/* Footer Section */
+	.footer-section{
+		padding: 20px;
+		height: auto
+	}
+
+		.footer-logo_container{
+			display: flex;
+			justify-content: center;
+			margin: 20px 0;
+		}
+
+			.footer-logo{
+				width: 125px !important;
+				margin: 0 !important;
+			}
+
+			.footer-info_item{
+				margin-top: 15px !important;
+			}
+
+				.footer-info_item svg{
+					width: 20px !important;
+					height: 20px !important;
+				}
+
+	/* Secondary NavBar */
+	.secondary-navbar-container{
+		height: 100px
+	}
+
+	.secondary-navbar{
+		top: 38%
+	}
+
+		.secondary-navbar div{
+			margin: 0px !important;
+		}
+
+	/* About Page */
+	.about-behind-text{
+		top: -33%;
+		right: -338px;
+		font-size: 65px;
+	}
+
+		.about-behind-text_bar{
+			width: 182px;
+			height: 15px;
+			left: 83px;
+			top: 23px;
+		}
+
+		.about-page_content{
+			margin-top: 50px;
+		}
+
+		.about-page_img{
+			margin-top: 30px;
+		}
+
+	/* Services Page */
+	.service-page_header{
+		margin-bottom: 50px;
+	}
+
+		.service-image_container{
+			margin-bottom: 20px;
+		}
+
+	.serviceIsActive{
+		width: 261px;
+		padding: 14px;
+		font-size: 20px;
+		margin: 10px;
+	}
+
+		.services-link{
+			width: 218px;
+			height: 50px;
+			padding-top: 13px;
+			margin: 10px
+		}
+
+	.services{
+		margin: 30px 0;
+	}
+
+	.service-behind-text{
+		top: -65%;
+		left: -7%;
+		font-size: 75px;
+	}
+
+		.service-title{
+			font-size: 30px;
+			margin-left: 0;
+			margin-top: 40px;
+		}
+
+		.service-behind-text_bar-marble{
+			width: 181px;
+			height: 15px;
+			left: 92px;
+			top: 15px;
+		}
+
+		.service-behind-text_bar-granite{
+			width: 181px;
+			height: 15px;
+			left: 96px;
+			top: 16px;
+		}
+
+		.service-behind-text_bar-quartz{
+			width: 181px;
+			height: 15px;
+			left: 89px;
+			top: 16px;
+		}
+
+		.service-behind-text_bar-quartzite{
+			width: 181px;
+			height: 15px;
+			left: 121px;
+			top: 16px;
+		}
+
+		.service-behind-text_bar-outdoor{
+			width: 181px;
+			height: 15px;
+			left: 109px;
+			top: 16px;
+		}
+
+		.service-behind-text_bar-sinks{
+			width: 88px;
+			height: 15px;
+			left: 48px;
+			top: 16px;
+		}
+
+	.sub-title{
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+
+	/* Projects Page */
+	.projects-container{
+		margin-top: 30px;
+	}
+
+		.services-behind-text_bar{
+			width: 165px;
+			height: 15px;
+			left: 113px;
+			top: 23px;
+		}
+
+	/* Contact Page */
+	.contact-title{
+		font-size: 27px;
+	}
+
+	.today-title{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+		.contact-behind-text{
+			top: -80%;
+			right: -345px;
+			font-size: 72px;
+			z-index: 0;
+			opacity: 0.09;
+			font-weight: bold;
+			width: 200%;
+		}
+
+		.contact-behind-text_bar{
+			width: 193px;
+			height: 15px;
+			left: 149px;
+			top: 15px;
+		}
+
+		.contact-content{
+			margin-top: 50px;
+			margin-bottom: 40px;
+		}
+
+	.contact-form{
+		margin-top: 30px;
+	}
+
+		.contact-form input{
+			margin-bottom: 20px;
+		}
+
+		.contact-form textarea{
+			margin-bottom: 20px;
+		}
+}

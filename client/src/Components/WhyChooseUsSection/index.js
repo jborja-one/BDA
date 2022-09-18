@@ -12,9 +12,9 @@ function WhyChooseUsSection() {
 		AOS.init({ duration: 2000 });
 	}, []);
 	return (
-		<div className="container mt-100">
+		<div className="choose-us-section container mt-100">
 			<div className="row">
-				<div className="col-md-6 position-relative">
+				<div className="about-section_left col-md-6 position-relative">
 					<h2
 						className="lg-text reg-text position-relative"
 						data-aos="fade-up"

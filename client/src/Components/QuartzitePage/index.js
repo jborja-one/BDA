@@ -14,7 +14,7 @@ function QuartzitePage() {
 		<div>
 			<SecondaryNavBar />
 			<div className="">
-				<div className="row my-100">
+				<div className="services row my-100">
 					<div className="col-md-4">
 						<ServicesMenuSection />
 					</div>
@@ -54,7 +54,7 @@ function QuartzitePage() {
 										Wondering what color fits your style and
 										interior design? Call our team today.
 									</p>
-									<h2 className="md-text bold-text mt-100">
+									<h2 className="sub-title md-text bold-text mt-100">
 										The best things about Quartzite
 									</h2>
 								</div>

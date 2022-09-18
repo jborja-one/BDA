@@ -12,7 +12,7 @@ function AboutSection() {
 
 	return (
 		<div
-			className="container my-100"
+			className="about-section container my-100"
 			data-aos="fade-up"
 			data-aos-easing="ease-in-back">
 			<div className="row">
@@ -31,7 +31,7 @@ function AboutSection() {
 						data-aos-duration="2000"
 						data-aos-easing="ease-in-back"></p>
 					<p className="behind-text position-absolute">CRAFTED</p>
-					<div className="mb-60">
+					<div className="about-section_content mb-60">
 						<p className="sm-text light-text my-5">
 							We are committed to providing our customers with
 							super exceptional service while offering our
@@ -43,10 +43,12 @@ function AboutSection() {
 							customers with exceptional service while offering
 							our employees the best training.
 						</p>
+						<a
+							href="/about"
+							className="md-button sm-text bold-text">
+							Learn More
+						</a>
 					</div>
-					<a href="/about" className="md-button sm-text bold-text">
-						Learn More
-					</a>
 				</div>
 				<div className="col-md-6 position-relative">
 					<img
@@ -54,52 +56,6 @@ function AboutSection() {
 						src={AboutSectionImg}
 						alt="about-section"
 					/>
-					{/* <div
-						className="counter-section d-flex justify-content-between align-items-center"
-						data-aos="fade-left"
-						data-aos-offset="300"
-						data-aos-duration="3000"
-						data-aos-easing="ease-in-sine">
-						<div className="d-flex flex-column align-items-center">
-							<CountUp start={0} end={15} delay={3}>
-								{({ countUpRef }) => (
-									<div>
-										<span
-											className="lg-text bold-text"
-											ref={countUpRef}
-										/>
-									</div>
-								)}
-							</CountUp>
-							<p className="md-text reg-text">Awards</p>
-						</div>
-						<div className="d-flex flex-column align-items-center">
-							<CountUp start={0} end={1259} delay={3}>
-								{({ countUpRef }) => (
-									<div>
-										<span
-											className="lg-text bold-text"
-											ref={countUpRef}
-										/>
-									</div>
-								)}
-							</CountUp>
-							<p className="md-text reg-text">Projects</p>
-						</div>
-						<div className="d-flex flex-column align-items-center">
-							<CountUp start={0} end={1259} delay={3}>
-								{({ countUpRef }) => (
-									<div>
-										<span
-											className="lg-text bold-text"
-											ref={countUpRef}
-										/>
-									</div>
-								)}
-							</CountUp>
-							<p className="md-text reg-text">Happy Clients</p>
-						</div>
-					</div> */}
 				</div>
 			</div>
 		</div>

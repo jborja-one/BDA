@@ -32,7 +32,7 @@ function ServicesSection() {
 					SERVICES
 				</p>
 			</div>
-			<div className="d-flex justify-content-center mb-5">
+			<div className="service-section_container d-flex justify-content-center mb-5">
 				<a
 					className="each-service service-item-1 col-md-4 me-2 px-0"
 					href="/services/granite-countertops">

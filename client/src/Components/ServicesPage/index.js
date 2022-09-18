@@ -18,7 +18,7 @@ function ServicesPage() {
 		<>
 			<SecondaryNavBar />
 			<div
-				className="container-fluid px-0 mb-200"
+				className="service-page_header container-fluid px-0 mb-200"
 				data-aos="fade-up"
 				data-aos-duration="3000"
 				data-aos-easing="ease-in-back">
@@ -43,7 +43,7 @@ function ServicesPage() {
 			</div>
 			<div className="container px-0 mb-100">
 				<div className="row mb-5">
-					<div className="col-md-6">
+					<div className="service-image_container col-md-6">
 						<img
 							className="img-fluid"
 							src={MarbleImg}
@@ -73,7 +73,7 @@ function ServicesPage() {
 					</div>
 				</div>
 				<div className="row mb-5">
-					<div className="col-md-6">
+					<div className="service-image_container col-md-6">
 						<img
 							className="img-fluid"
 							src={GraniteImg}
@@ -101,7 +101,7 @@ function ServicesPage() {
 					</div>
 				</div>
 				<div className="row mb-5">
-					<div className="col-md-6">
+					<div className="service-image_container col-md-6">
 						<img
 							className="img-fluid"
 							src={QuartzImg}
@@ -130,7 +130,7 @@ function ServicesPage() {
 					</div>
 				</div>
 				<div className="row mb-5">
-					<div className="col-md-6">
+					<div className="service-image_container col-md-6">
 						<img
 							className="img-fluid"
 							src={QuartziteImg}
@@ -160,7 +160,7 @@ function ServicesPage() {
 					</div>
 				</div>
 				<div className="row mb-5">
-					<div className="col-md-6">
+					<div className="service-image_container col-md-6">
 						<img
 							className="img-fluid"
 							src={OutdoorImg}

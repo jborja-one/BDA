@@ -86,7 +86,7 @@ function HomePage() {
 					<h3 className="md-text reg-text text-white">
 						Our Result, Our Commitment
 					</h3>
-					<div className="mt-100">
+					<div className="header-btn_container mt-100">
 						<a
 							href="/services/granite-countertops"
 							className="md-button sm-text bold-text">

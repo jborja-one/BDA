@@ -5,9 +5,9 @@ function FooterSection() {
 	return (
 		<div className="container-fluid footer-section">
 			<div className="row">
-				<div className="col-md-3">
+				<div className="footer-logo_container col-md-3 ">
 					<img
-						className="img-fluid ms-4"
+						className="footer-logo img-fluid ms-4"
 						src={LogoLight}
 						alt="logo-light"
 					/>
@@ -16,7 +16,7 @@ function FooterSection() {
 					<h2 className="md-text reg-text text-white mb-4">
 						Our Information
 					</h2>
-					<div className="d-flex align-items-center">
+					<div className="footer-info_item d-flex align-items-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="38"
@@ -30,7 +30,7 @@ function FooterSection() {
 							4362 West 8480 South <br /> West Jordan UT 84088
 						</p>
 					</div>
-					<div className="d-flex align-items-center mt-5">
+					<div className="footer-info_item d-flex align-items-center mt-5">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="38"
@@ -44,7 +44,7 @@ function FooterSection() {
 							bda.marble.granite@gmail.com
 						</p>
 					</div>
-					<div className="d-flex align-items-center mt-5">
+					<div className="footer-info_item d-flex align-items-center mt-5">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="38"

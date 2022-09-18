@@ -14,7 +14,7 @@ function ContactPage() {
 		<div>
 			<SecondaryNavBar />
 			<div className="container ">
-				<div className="row my-100">
+				<div className="contact-content row my-100">
 					<div className="col-md-6">
 						<div className="col-md-6 position-relative">
 							<h2
@@ -46,7 +46,7 @@ function ContactPage() {
 							385-477-7867 to contact our team.
 						</p>
 						<h2
-							className="lg-text reg-text position-relative contact-title mt-60"
+							className="lg-text reg-text position-relative contact-title today-title mt-60"
 							data-aos="fade-up"
 							data-aos-duration="3000"
 							data-aos-easing="ease-in-back">
@@ -85,14 +85,14 @@ function ContactPage() {
 					</div>
 					<div className="col-md-6">
 						<h2
-							className="lg-text reg-text position-relative contact-title"
+							className="lg-text reg-text position-relative contact-title today-title"
 							data-aos="fade-up"
 							data-aos-duration="3000"
 							data-aos-easing="ease-in-back">
 							How Can We
 							<span className="bold-text"> Help</span>
 						</h2>
-						<form className="mt-60">
+						<form className="contact-form mt-60">
 							<div className="form-group d-flex mb-3">
 								<input
 									type="text"

@@ -32,7 +32,7 @@ function ProjectsPage() {
 				data-aos="fade-up"
 				data-aos-duration="3000"
 				data-aos-easing="ease-in-back">
-				<div className="my-100 position-relative">
+				<div className="projects-container my-100 position-relative">
 					<h2
 						className="lg-text reg-text position-relative ms-5"
 						data-aos="fade-up"
@@ -50,7 +50,7 @@ function ProjectsPage() {
 						PROJECTS
 					</p>
 					<div className="container">
-						<h2 className="md-text bold-text mt-100 mb-4">
+						<h2 className="sub-title md-text bold-text mt-100 mb-4">
 							Granite Viscount White
 						</h2>
 						<p>

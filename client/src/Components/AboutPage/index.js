@@ -35,7 +35,7 @@ function AboutPage() {
 								ABOUT US
 							</p>
 						</div>
-						<div className="mt-100">
+						<div className="about-page_content mt-100">
 							<p
 								className="light-text sm-text"
 								data-aos="fade-up"
@@ -55,7 +55,7 @@ function AboutPage() {
 						</div>
 					</div>
 					<div
-						className="col-md-6"
+						className="about-page_img col-md-6"
 						data-aos="fade-up"
 						data-aos-duration="3000"
 						data-aos-easing="ease-in-back">
