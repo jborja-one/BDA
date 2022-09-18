@@ -108,7 +108,7 @@ table {
 	}
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 376px) and (max-width: 767px) {
 	.sm-text{
 		font-size: 10px;
 		line-height: 20px;
@@ -200,7 +200,7 @@ table {
 	}
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 376px) and (max-width: 767px) {
 	.md-button{
 		padding-inline: 10px;
 		padding: 5px;
@@ -1193,7 +1193,7 @@ table {
 		}
 }
 
-@media screen and (min-width: 376px){
+@media screen and (min-width: 376px) and (max-width: 767px) {
 		/* Home Header */
 		.nav-link{
 			font-size: 13px;
@@ -1209,6 +1209,10 @@ table {
 			top: 23%;
 			left: -3%;
 		}
+
+			.navbar-container a img{
+				display: none;
+			}
 
 			.home-header-content h1, .home-header-content h3{
 				font-size: 15px;
@@ -1381,6 +1385,10 @@ table {
 		.secondary-navbar{
 			top: 38%
 		}
+
+			.secondary-navbar a img{
+				display: none;
+			}
 
 			.secondary-navbar div{
 				margin: 0px !important;
